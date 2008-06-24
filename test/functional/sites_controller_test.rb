@@ -6,6 +6,7 @@ SitesController.class_eval { def rescue_action(e) raise e end }
 class SitesControllerTest < Test::Unit::TestCase
   test_helper :login, :difference
   fixtures :sites
+
   def setup
     @controller = SitesController.new
     @request    = ActionController::TestRequest.new
@@ -45,8 +46,6 @@ class SitesControllerTest < Test::Unit::TestCase
     assert_difference Site, :count do
       post :create, :site => {:name => "New site", :domain => "new-site", :position => nil, :base_domain => "new-site.dp.com"}
       assert_response :redirect
-      assert_equal "New site", assigns(:site).name
-      assert_equal "new-site", assigns(:site).domain
     end
   end
   
