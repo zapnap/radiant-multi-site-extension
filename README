@@ -3,6 +3,10 @@
 Created by Sean Cribbs, November 2007. Inspired by the original virtual_domain
 behavior. Extended by Nick Plante, March 2008. 
 
+*Note* that this fork of multi-site is most likely out of date due to the 0.7.x 
+changes. It should run fine on 0.6.x. If someone wants to update it, please do
+let me know! I haven't had much free time for maintenance lately :)
+
 Multi Site allows you to host multiple websites on a single Radiant
 installation. It also allows you to assign users to specific sites, scoping
 all their administrative activity to that one domain.
