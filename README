@@ -3,6 +3,8 @@
 Created by Sean Cribbs, November 2007. Inspired by the original virtual_domain
 behavior. Extended by Nick Plante, March 2008. 
 
+NOTE: This fork of multi-site is (badly) outdated. I'd suggest you look at http://github.com/spanner/radiant-multi-site-extension and http://github.com/spanner/radiant-scoped-admin-extension instead
+
 Multi Site allows you to host multiple websites on a single Radiant
 installation. It also allows you to assign users to specific sites, scoping
 all their administrative activity to that one domain.
